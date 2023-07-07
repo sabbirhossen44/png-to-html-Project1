@@ -1,0 +1,602 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    width: 1020px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.inner-container{
+    padding: 0 40px;
+    overflow: hidden;
+}
+.container{
+    padding: 0 40px;
+} 
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+ul{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* header toop */
+.header-toop{
+    background-color: #0872b9;
+}
+.headerToop-Area{
+    height: 32px;
+    width: 100%;
+}
+.headerToopLeft{
+    float: left;
+    padding: 8px;
+    width: 180px;
+    color: #e7e7e7;
+    font-size: 14px;
+    text-align: center;
+    font-family: Open Sans;
+}
+.headerToopRight{
+    float: right;
+    display: block;
+    
+}
+.headerToopRight ul li{
+    padding-top: 8px;
+    padding-left: 20px;
+}
+.headerToopRight ul li a{
+    padding-left: 15px;
+    transition: 0.5s;
+}
+.headerToopRight ul li a:hover{
+    color: #2c4760;
+}
+.header-left{
+    width: 85px;
+    display: inline-block;
+}
+.header-left img{
+    
+    margin: 20px 0px;
+}
+.header-right{
+    width: 480px;
+    font-family: Myriad Pro ;
+    float: right;
+    font-weight: 600;
+}
+.header-right ul{
+    float: right;
+}
+.header-right ul li{
+    display: inline-block;
+    padding: 32px 0px;
+}
+.header-right ul li a{
+    color: #353535;
+    font-style: 14px;
+    padding-left: 10px;
+    transition: 0.5s;
+    
+}
+.header-right ul li a:hover{
+    color: #0872b9;
+}
+
+/* main area */
+
+/* banner area */
+.banner-area{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./imags/Beatles1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 1020px;
+}
+.text-area{
+    width: 454px;
+    float: right;
+    margin-top: 88px;
+}
+.text-area h2{
+    float: right;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 30px;
+}
+.text-area h1{
+    float: right;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.text-area p{
+    line-height: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+    float: right;
+    display: block;
+}
+.button-1{
+    float: right;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-top: 34px;
+    border: 2px solid #ffffff;
+    padding: 10px 20px ;
+    cursor: pointer;
+    font-size: 13pt;
+    display: block;
+    color: #ffffff;
+    transition: 0.4s;
+}
+.button-2{
+    float: right;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-top: 34px;
+    border: 2px solid #ffffff;
+    padding: 10px 20px ;
+    cursor: pointer;
+    font-size: 13pt;
+    display: block;
+    color: #ffffff;
+    transition: 0.4s;
+}
+.button-1:hover{
+    border: none;
+    background-color: #0872b9;
+    border: 2px solid #0872b9;
+}
+.button-2:hover{
+    border: none;
+    background-color: #0872b9;
+    border: 2px solid #0872b9;
+    
+}
+
+
+
+/* about area */
+.h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    margin-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #353535;
+}
+.broder{
+    margin-left: 422px;
+    background: url(./imags/Beatles-Recovered-Recovered1.jpg);
+    height: 2px;
+    width: 65px;
+}
+
+.about-area-contrnt{
+    display: inline-block;
+    width: 400px;
+}
+.about-area-contrnt img{
+    margin-top: 36px;
+    position: absolute;
+    display: inline-block;
+}
+.about-area-text{
+    float: right;
+    width: 540px;
+    margin-top: 80px;
+}
+.about-area-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #555555;
+    margin-bottom: 23px;
+    line-height: 20px;
+}
+/* servic-area */
+.h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    margin-top: 360px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #353535;
+}
+.broders{
+    margin-left: 400px;
+    background: url(./imags/Beatles-Recovered-Recovered1.jpg);
+    height: 2px;
+    width: 65px;
+}
+.servic-Area-conten{
+    margin-top: 25px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.singail-servic img{
+    border: 3px solid #fff;
+    border-radius: 50%;
+    
+}
+.servic-Area-conten-text{
+    margin-top: -35px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    
+    
+}
+.singail-servics{
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    z-index: -1;
+    padding-bottom: 20px;
+}
+.singail-servics h1{
+    padding-top: 53px;
+    font-size: 16px;
+    color: #353535;
+    text-transform: uppercase;
+}
+.singail-servics p{
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #555555;
+    font-size: 13px;
+    line-height: 12px;
+}
+/* portfolio-area */
+.teg{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #353535;
+}
+.brodrs{
+    margin-left: 395px;
+    background: url(./imags/Beatles-Recovered-Recovered1.jpg);
+    height: 2px;
+    width: 65px;
+}
+.portfolio-area-images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.img-column .port-img {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+.hover-area{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.img-column .port-img:hover .hover-area .link-area{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+
+.img-column .port-img:hover .hover-area{
+    opacity: 1;
+    transition: 0.5 ease-in-out;
+}
+
+/* tem-area */
+.h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #353535;
+}
+.brodr{
+    margin-left: 420px;
+    background: url(./imags/Beatles-Recovered-Recovered1.jpg);
+    height: 2px;
+    width: 65px;
+}
+.tem-area-images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.singail-tem-area h3{
+    margin-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: #353535;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.singail-tem-area h3:hover{
+    color: #5bc5f4;
+}
+.singail-tem-area p{
+    font-family: 'Oswald', sans-serif;
+    color: #555555;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.singleImg{
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.img-details-area{
+    display: grid;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    margin-right: -50px;
+}
+
+.iconDiv{
+    border: 1px solid #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.iconDiv:hover{
+    background-color: #5bc5f4;
+}
+
+.iconDiv img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.singleImg:hover .img-details-area{
+    margin-right: 0;
+    transition: linear 0.5s;
+}
+
+/* testimonial-area */
+.testimonial-area{
+    margin-bottom: 60px;
+}
+.testimonial-area-tag{
+    margin-top: 56px;
+    margin-bottom: 30px;
+}
+.h5{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #353535;
+}
+.tagBoder{
+    margin-left: 410px;
+    background: url(./imags/Beatles-Recovered-Recovered1.jpg);
+    height: 2px;
+    width: 65px;
+}
+.testimonial-img{
+    margin-top: 25px;
+    margin-left: 190px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 400px;
+}
+.testimonial-icon{
+    margin-top: 25px;
+    margin-left: 200px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 425px;
+    z-index: -1;
+}
+.icon1{
+    z-index: -1;
+    height: 50px;
+    width: 60px;
+    background-color: #f1f1f1;
+    transform: rotate(45deg);
+}
+.icon2{
+    z-index: -1;
+    height: 50px;
+    width: 60px;
+    background-color: #f1f1f1;
+    transform: rotate(45deg);
+}
+.testimonial-text-area{
+    margin-top: -40px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+.testimonial-text{
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 20px;
+}
+.testimonial-text h2{
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #353535;
+
+}
+.icon a{
+    color: #0872b9;
+}
+.testimonial-text h4{
+    margin-top: 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    color: #555555;
+}
+.testimonial-text p{
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    color: #555555;
+    line-height: 25px;
+}
+
+/* footer-area */
+
+.footer-sengail-area-conten{
+    display: flex;
+    margin-left: 10px;
+}
+.footer-sengail-area{
+    width: 220px;
+    margin-top: 25px;
+}
+
+.contact-us-content{
+    width: 100%;
+    margin-top: 44px;
+}
+.contact-us-content{
+    height: 20px;
+}
+.contact-us-content img{
+    width: 20%;
+    float: left;
+    display: block;
+}
+#contact-us-content-text p{
+    margin-left: 50px;
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #d5d5d5;
+}
+.links{
+    margin-top: 44px;
+    padding: 10px;
+}
+.linksText ul li {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.linksText ul li a{
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #d5d5d5;
+    transition: 0.4s;
+}
+.linksText ul li a:hover{
+    color: #5bc5f4;
+}
+
+
+
+#links{
+    width: 200px;
+}
+#imgs{
+    width: 290px;
+}
+.footer-sengail-area h2{
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+} 
+.footer-sengail-area p{
+    margin: 30px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #ffffff;
+
+}
+.footer-sengail-area-imas img{
+    border: 2px solid #353535;
+}
+
+
+
+
+
+
+
+.footer{
+    background-color: #353535;
+    height: 292px;
+    width: 100%;
+}
+.footet-buttom{
+    background-color: #555555;
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 20px;
+    color: #f1f1f1;
+}
+span{
+    color: #5bc5f4;
+}
+
+
